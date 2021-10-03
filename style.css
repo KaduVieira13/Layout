@@ -1,10 +1,4 @@
-.hg-conteudo {
-    background-color: silver;
-}
-
-.hg-conteudo > main {
-    background-color: #aaa;
-}
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
 
 body {
     margin: 0 auto;
@@ -12,6 +6,72 @@ body {
     min-height: 100vh;
     display: flex;
     flex-flow: column;
+}
+
+header {
+    padding: 3px;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, yellow, orange, rgb(245, 86, 86));
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    width: 950px;  
+}
+
+nav a {
+  background-color: #eee; 
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none;
+}
+
+nav a:hover {
+    background:#ccc;
+}
+
+nav a.efeito {
+    background-color: #04AA6D; 
+    color: white;
+}
+
+
+aside {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+.texto {
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #04AA6D;
+    opacity: 0.9;
+}
+
+.ft {
+    padding: 10px;
 }
 
 .hg-conteudo {
